@@ -1,0 +1,31 @@
+{
+  "name": "dev_tinyvise_portfolio",
+  "version": "1.0.0",
+  "description": "//-------------------------------------------------- GIT:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooes/dev_tinyvise_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ooes/dev_tinyvise_portfolio/issues"
+  },
+  "homepage": "https://github.com/ooes/dev_tinyvise_portfolio#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^4.11.0",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}
