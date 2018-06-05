@@ -18,7 +18,7 @@ module.exports = {
   // new webpack.optimize.AggressiveMergingPlugin()//Merge chunks
  ],
  output: {
-   path: path.join(__dirname, 'www'),
+   path: path.join(__dirname, 'public'),
    filename: 'bundle.js'
  },
  module: {
