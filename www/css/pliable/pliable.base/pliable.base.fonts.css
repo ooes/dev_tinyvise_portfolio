@@ -1,0 +1,101 @@
+
+/*
+============================================================
+START : FONTS
+*/
+
+/*
+------------------------------------------------------------
+html
+*/
+
+html {
+    /* fonts */
+    font-size: 16px;
+}
+
+body {
+    /* fonts */
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    /* fonts */
+    font-size: calc( 2rem + .3vmax );
+    line-height: 2.2rem;
+}
+
+h2 {
+    /* fonts */
+    font-size: calc( 1.8rem + .3vmax );
+    line-height: 2rem;
+}
+
+h3 {
+    /* fonts */
+    font-size: calc( 1.6rem + .3vmax );
+    line-height: 1.8rem;
+}
+
+h4 {
+    /* fonts */
+    font-size: calc( 1.4rem + .3vmax );
+    line-height: 1.6rem;
+}
+
+h5 {
+    /* fonts */
+    font-size: calc( 1.2rem + .3vmax );
+    line-height: 1.4rem;
+}
+
+h6 {
+    /* fonts */
+    font-size: calc( 1rem + .3vmax );
+    line-height: 1.2rem;
+}
+
+/*
+END : FONTS
+============================================================
+============================================================
+START : BREAKPOINTS : 768
+*/
+
+@media ( min-width: 768px ) {
+    
+    h1 {
+        /* fonts */
+        font-size: calc( 2rem + .3vmin );
+    }
+    
+    h2 {
+        /* fonts */
+        font-size: calc( 1.8rem + .3vmin );
+    }
+    
+    h3 {
+        /* fonts */
+        font-size: calc( 1.6rem + .3vmin );
+    }
+    
+    h4 {
+        /* fonts */
+        font-size: calc( 1.4rem + .3vmin );
+    }
+    
+    h5 {
+        /* fonts */
+        font-size: calc( 1.2rem + .3vmin );
+    }
+    
+    h6 {
+        /* fonts */
+        font-size: calc( 1rem + .3vmin );
+    }
+}
+    
+/*
+END : BREAKPOINTS : 768
+============================================================
+*/

@@ -1,0 +1,88 @@
+
+/*
+============================================================
+START : DEBUG
+*/
+
+header {
+    background-color: #66ffff;
+}
+
+header > * {
+    background-color: #99ffcc;
+}
+
+header > * > * {
+    background-color: #ccff99;
+}
+
+main {
+    background-color: #ccffff;
+}
+
+main > * {
+    background-color: #ccff99;
+}
+
+main > * > * {
+    background-color: #ffffcc;
+}
+
+footer {
+    background-color: #66ccff;
+}
+
+footer > * {
+    background-color: #ffffcc;
+}
+
+footer > * > * {
+    background-color: #99ffcc;
+}
+
+
+
+
+
+
+
+.red {
+    border: 1px solid red;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
+
+.orange {
+    border: 1px solid orange;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.purple {
+    border: 1px solid purple;
+}
+
+.black {
+    border: 1px solid black;
+}
+
+.white {
+    border: 1px solid white;
+}
+
+.gray {
+    border: 1px solid gray;
+}
+
+/*
+END : DEBUG
+============================================================
+*/

@@ -1,0 +1,22 @@
+
+/*
+============================================================
+START : BOOTSTRAP : OVERWRITE : NAVBAR : FONTS
+*/
+
+/*
+------------------------------------------------------------
+mobile : menu
+*/
+
+nav.navbar .navbar-nav > li > a,
+nav.navbar .navbar-collapse ul li {
+    /* fonts */
+    color: #000;
+}
+
+/*
+END : BOOTSTRAP : OVERWRITE : NAVBAR : FONTS
+============================================================
+*/
+

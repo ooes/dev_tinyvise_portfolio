@@ -1,0 +1,90 @@
+/*
+BRANDING TEMPLATE:
+
+These are suggested steps to help you apply a brand quickly.
+We suggest you start from a broad approach working your way 
+into the details of the sections.
+
+note: first, make sure all debugging includes are commented out
+in the pliable.css and any overwrites includes.  Afterwards,
+follow these steps:
+
+1) change the color of the header
+2) change the color of the main
+3) change the color of the footer
+
+4) change the height of header
+5) change the height of footer
+
+6) desktop : change the nav link color in header
+
+*/
+
+/* 
+------------------------------------------------------------
+1) change the color of the header 
+*/
+header {
+    /* appearance */
+    background-color: navy;
+}
+
+/* 
+------------------------------------------------------------
+2) change the color of the main 
+*/
+main {
+    /* appearance */
+    background-color: white;
+}
+
+/* 
+------------------------------------------------------------
+3) change the color of the footer 
+*/
+footer {
+    /* appearance */
+    background-color: gray;
+}
+
+/* 
+------------------------------------------------------------
+4) change the height of header 
+*/
+header {
+    /* structure */
+    height: 15vmax;
+}
+@media ( min-width: 768px ) {
+    header {
+        /* structure */
+        height: 15vmin;
+    }
+}
+
+/* 
+------------------------------------------------------------
+5) change the height of footer 
+*/
+footer {
+    /* structure */
+    height: 15vmax;
+}
+@media ( min-width: 768px ) {
+    footer {
+        /* structure */
+        height: 15vmin;
+    }
+}
+
+/* 
+------------------------------------------------------------
+6) desktop : change the nav link color in header
+*/
+nav.navbar .navbar-nav li a,
+nav.navbar .navbar-nav li a:hover,
+nav.navbar .navbar-nav li a:active,
+nav.navbar .navbar-nav li a:visited {
+    /* appearance */
+    color: white;
+} 

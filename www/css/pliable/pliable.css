@@ -1,0 +1,33 @@
+/*
+This code is under MIT licence, you can find the complete file here: 
+https://github.com/gutierr3z/pliable_flex/blob/master/LICENSE.md
+*/
+
+/* BASE */
+@import url( 'pliable.base/pliable.base.css' );
+
+/* BOOTSTRAP */
+/* @import url( 'bootstrap.overwrites/navbar/navbar.css' ); */
+
+/* BRAND */
+/* @import url( 'brand.01/brand.css' ); */
+
+/* 
+How to reset / remove chrome's input highlighting / focus border? [duplicate]
+border:0;
+outline:none;
+box-shadow:none;
+*/
+
+header,
+main,
+footer,
+header > *,
+main > *,
+footer > *,
+header > * > *,
+main > * > *,
+footer > * > * {
+    /* colors off */
+    /* background-color: transparent; */
+}

@@ -1,0 +1,267 @@
+
+/*
+============================================================
+START : STRUCTURE
+*/
+
+/*
+------------------------------------------------------------
+flex settings
+*/
+
+body > .wrapper {
+    /* structure */
+    height: 100vh;
+}
+
+body,
+body > .wrapper {
+    /* structure */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    /* structure */
+    flex: 1;
+}
+
+/*
+------------------------------------------------------------
+html
+*/
+
+html {
+    /* structure */
+    height: 100%;
+}
+
+body {
+    /* structure */
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+}
+
+article {
+    /* structure */
+    padding: 0px 1vmax;
+}
+
+p {
+    /* structure */
+    margin: 1.5rem 0px;
+}
+
+h1 {
+    /* structure */
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    /* structure */
+    margin-top: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+h3 {
+    /* structure */
+    margin-top: 1.4rem;
+    margin-bottom: .6rem;
+}
+
+h4 {
+    /* structure */
+    margin-top: 1.2rem;
+    margin-bottom: .4rem;
+}
+
+h5 {
+    /* structure */
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+h6 {
+    /* structure */
+    margin-top: .8rem;
+    margin-bottom: 0rem;
+}
+
+/*
+------------------------------------------------------------
+groupings
+*/
+
+header > *,
+main > *,
+footer > * {
+    /* structure */
+    padding: 0px 3vmax;
+}
+
+header > * > *,
+main > * > *,
+footer > * > * {
+    /* structure */
+    max-width: 1170px;
+    min-width: 250px;
+    margin: 0px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* structure */
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+/*
+------------------------------------------------------------
+header
+*/
+
+header {
+    /* structure */
+    height: 8vmax;
+}
+
+header > * {
+    /* structure */
+    padding-right: 0px;
+    padding-left: 0px;
+    height: inherit;
+}
+
+header > * > * {
+    /* structure */
+    width: 100%;
+    height: inherit;
+}
+
+header > * > * > div:first-of-type {
+    /* structure */
+    float: left;
+    width: 49%;
+}
+
+header > * > * > div:first-of-type > a {
+    /* structure */
+    display: block;
+    width: 15vmax;
+}
+
+header > * > * > div:last-of-type {
+    /* structure */
+    float: right;
+    width: 49%;
+    text-align: right;
+}
+
+header > * > * > div:last-of-type > ul {
+    /* structure */
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+header > * > * > div:last-of-type > ul li {
+    /* structure */
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+header > * > * > div:last-of-type > ul li > a {
+    /* structure */
+    display: flex;
+    align-items: center;
+}
+
+/*
+------------------------------------------------------------
+main
+*/
+
+main > *:last-of-type {
+    /* structure */
+    padding-bottom: 5vmax;
+}
+
+/*
+------------------------------------------------------------
+footer
+*/
+
+footer {
+    /* structure */
+    height: 4vmax;
+}
+
+footer > *,
+footer > * > * {
+    /* structure */
+    height: inherit;
+}
+
+/*
+END : STRUCTURE
+============================================================
+============================================================
+START : BREAKPOINTS : 568, 768
+*/
+
+@media ( min-width: 568px ) {
+
+    article {
+        /* structure */
+        padding: 0px 5vmax;
+    }
+}
+
+@media ( min-width: 768px ) {
+
+    header > *,
+    main > *,
+    footer > * {
+        /* structure */
+        padding: 0px 3vmin;
+    }
+
+    article {
+        /* structure */
+        padding: 0px 10vmin;
+    }
+
+    header {
+        /* structure */
+        height: 8vmin;
+    }
+
+    header > * > * > div > a {
+        /* structure */
+        width: 25vmin;
+    }
+
+    main > *:last-of-type {
+        /* structure */
+        padding-bottom: 5vmin;
+    }
+
+    footer {
+        /* structure */
+        height: 4vmin;
+    }
+
+    footer > * {
+        /* structure */
+        height: inherit;
+    }
+}
+
+/*
+END : BREAKPOINTS : 568, 768
+============================================================
+*/

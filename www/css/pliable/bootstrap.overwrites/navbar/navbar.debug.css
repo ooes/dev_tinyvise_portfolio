@@ -1,0 +1,59 @@
+
+/*
+============================================================
+START : DEBUG
+*/
+
+nav.navbar {
+    background-color: #ffccff;
+}
+
+nav.navbar .navbar-collapse ul {
+    background-color: #ff99cc;
+}
+
+nav.navbar .navbar-collapse ul li {
+    background-color: #ff99ff;
+}
+
+nav.navbar .navbar-brand {
+    background-color: purple;
+}
+
+nav.navbar .navbar-brand li:nth-child( 1 ) {
+    background-color: #ff99ff;
+}
+
+nav.navbar .navbar-brand li:nth-child( 2 ) {
+    background-color: #ff66ff;
+}
+
+nav.navbar .navbar-brand li:nth-child( 3 ) {
+    background-color: Fuchsia;
+}
+
+nav.navbar .navbar-header .navbar-toggle {
+    background-color: #ff66cc;
+}
+
+nav.navbar .navbar-header .navbar-toggle .icon-bar {
+    background-color: #ff00ff;
+}
+
+nav.navbar,
+nav.navbar .navbar-collapse ul,
+nav.navbar .navbar-collapse ul li,
+nav.navbar .navbar-brand,
+nav.navbar .navbar-brand li:nth-child( 1 ),
+nav.navbar .navbar-brand li:nth-child( 2 ),
+nav.navbar .navbar-brand li:nth-child( 3 ),
+nav.navbar .navbar-header .navbar-toggle,
+nav.navbar .navbar-header .navbar-toggle .icon-bar {
+    /* colors off */
+    /* background-color: transparent; */
+}
+
+/*
+END : DEBUG
+============================================================
+*/

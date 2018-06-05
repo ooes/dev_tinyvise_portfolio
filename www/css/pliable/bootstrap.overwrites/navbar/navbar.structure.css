@@ -1,0 +1,141 @@
+
+/*
+============================================================
+START : BOOTSTRAP : OVERWRITE : NAVBAR : STRUCTURE
+*/
+
+nav.navbar {
+    /* structure */
+    margin-bottom: 0px;
+    height: inherit;
+    min-height: inherit;
+    z-index: 1000;
+}
+
+nav.navbar .navbar-header {
+    /* structure */
+    height: inherit;
+}
+
+nav.navbar .navbar-collapse,
+nav.navbar .navbar-header {
+    /* structure */
+    margin-right: 0px;
+    margin-left: 0px;
+    left: 0px;
+}
+
+nav.navbar .navbar-nav {
+    /* structure */
+    margin: 0px;
+}
+
+nav.navbar .nav > li > a {
+    /* structure */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav.navbar .navbar-nav > li > a {
+    /* structure */
+    padding: 0px;
+}
+
+/*
+------------------------------------------------------------
+mobile : menu
+*/
+
+nav.navbar .navbar-collapse,
+nav.navbar .navbar-form {
+    /* structure */
+    padding: 0px;
+}
+
+nav.navbar .navbar-collapse ul li {
+    /* structure */
+    padding-top: 1vmax;
+    padding-right: 3vmax;
+    padding-bottom: 1vmax;
+    padding-left: 7vmax;
+}
+
+/*
+------------------------------------------------------------
+mobile : brand : logo
+*/
+
+nav.navbar .navbar-brand {
+    /* structure */
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: inherit;
+    list-style: none;
+}
+
+nav.navbar .navbar-brand li {
+    display: flex;
+    align-items: center;
+}
+
+/*
+------------------------------------------------------------
+mobile : burger
+*/
+
+nav.navbar .navbar-header .navbar-toggle {
+    /* structure */
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+    width: 30px;
+}
+
+nav.navbar .navbar-header .navbar-toggle .icon-bar {
+    /* structure */
+    width: 25px;
+    height: 4px;
+}
+
+nav.navbar .navbar-header .navbar-toggle .icon-bar + .icon-bar {
+    /* structure */
+    margin-top: 7px;
+}
+
+/*
+END : BOOTSTRAP : OVERWRITE : NAVBAR : STRUCTURE
+============================================================
+============================================================
+START : BREAKPOINTS : 768
+*/
+
+@media ( min-width: 768px ) {
+
+    nav.navbar .navbar-collapse,
+    .navbar-collapse.collapse,
+    nav.navbar .navbar-collapse ul.nav {
+        /* structure */
+        height: inherit !important;
+    }
+    
+    nav.navbar .navbar-collapse ul li {
+        /* structure */
+        padding: 0px 3vmin;
+        height: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    nav.navbar .navbar-nav {
+        /* structure */
+        display: block;
+        height: inherit;
+    }
+}
+
+/*
+END : BREAKPOINTS : 768
+============================================================
+*/

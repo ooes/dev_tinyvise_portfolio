@@ -1,0 +1,62 @@
+
+/*
+============================================================
+START : BOOTSTRAP : OVERWRITE : NAVBAR : APPEARANCE
+*/
+
+nav.navbar {
+    /* appearance */
+    border-radius: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+/*
+------------------------------------------------------------
+mobile : menu
+*/
+
+nav.navbar .navbar-collapse,
+nav.navbar .navbar-form {
+    /* appearance */
+    border: 0px;
+}
+
+/*
+------------------------------------------------------------
+mobile : brand : logo
+*/
+
+nav.navbar .navbar-brand {
+    /* appearance */
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 3vmax 55%;
+}
+
+/*
+------------------------------------------------------------
+mobile : burger
+*/
+
+nav.navbar .navbar-header .navbar-toggle {
+    /* appearance */
+    border-radius: 0px;
+    border: 0px;
+}
+
+nav.navbar .navbar-header .navbar-toggle .icon-bar {
+    /* appearance */
+    border-radius: 0px;
+}
+
+nav.navbar .navbar-header .navbar-toggle:hover,
+nav.navbar .navbar-header .navbar-toggle:focus {
+    /* appearance */
+    background-color: transparent;
+}
+
+/*
+END : BOOTSTRAP : OVERWRITE : NAVBAR : APPEARANCE
+============================================================
+*/
